@@ -1,0 +1,97 @@
+/* Add your CSS styles for the signup and login forms */
+.container {
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 10px #aaa;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.form-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.input-group input,
+.input-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.input-group label {
+    position: absolute;
+    top: -20px;
+    left: 10px;
+    background: #f9f9f9;
+    padding: 0 5px;
+    font-size: 14px;
+    color: #666;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5cb85c;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #4cae4c;
+}
+
+.error-msg {
+    color: red;
+    font-size: 14px;
+    text-align: center;
+}
+
+.recover a {
+    text-decoration: none;
+    color: #5cb85c;
+}
+
+.recover a:hover {
+    color: #4cae4c;
+}
+
+.or {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.icons {
+    text-align: center;
+}
+
+.icons i {
+    font-size: 24px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.links {
+    text-align: center;
+}
+
+.links p {
+    margin: 10px 0;
+}
+
+#signup, #signIn {
+    display: none;
+}
